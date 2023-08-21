@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        h1 {
+            float: left;
+            background-color: #0564fc;
+            color: white;
+            width: 100%;
+            height: 70px;
+            padding: 10px;
+            font-size: 50px;
+            
+
+        }
+        .container {
+            float: right;
+            margin-top: 30px;
+            margin-right: 50px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px gray;
+            width: 400px;
+            height: 80%;
+            padding: 20px;
+        }
+        .container h2 {
+            padding: 10px;
+        }
+        .container p {
+            padding: 7px;
+            font-size: 15pxpx;
+        }
+        .container .container-item1 input {
+            margin: 5px;
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            padding: 8px;
+            width: 45%;
+        }
+        .container .container-item2 h3 {
+            margin: 10px;
+        }
+        .container .container-item2 input {
+            margin: 5px;
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            padding: 8px;
+            width: 45%;
+        }
+        .container .container-item2 p {
+            font-size: 10px;
+            float: right;
+            margin-right: 50px;
+        }
+        .container .container-item2 p a {
+            text-decoration: none;
+        }
+        .container .container-item3 input {
+            margin: 10px;
+            padding: 10px;
+        }
+        .container .container-item3 p {
+            font-size: 10px;
+        }
+        .container .container-item3 p a {
+            text-decoration: none;
+        }
+        .container .container-item4 input {
+            margin: 10px;
+            margin-top: 20px;
+            border: 1px solid lightgray;
+            border-radius: 7px;
+            padding: 10px;
+            width: 95%;
+            background-color: #16ff05;
+            color: white;
+            align-items: center;
+            font-weight: bolder;
+        }
+        
+    </style>
+<body>
+    <h1>facebook</h1>
+    <div class="container">
+        <h2>Create New Account</h2>
+        <p>It's free and always will be.</p>
+        <div class="container-item1">
+         <input type="text" name="firstname" placeholder="First Name" required>
+         <input type="text" name="surname" placeholder="Surmane" required><br>
+         <input type="number" placeholder="Mobile Number" required><br>
+         <input type="email" placeholder="Email Adress" required><br>
+        </div>
+        <div class="container-item2">
+            <h3>Birthday</h3>
+            <input type="date" name="date" required>
+            <p><a href="#">Why do I need to provide<br>my date of birth?</a></p><br>
+        </div>
+        <div class="container-item3">
+            <input type="radio" name="male" required><label>Male</label>
+            <input type="radio" name="fmale"required><label>Female</label><br>
+            <p>By clicking Create Account, you agree to our<a href="#">Terms</a>and condition<br>that you have read our<a href="#"> Data privacy</a>including our<a href="#"> Cookie Use</a><br><a href="#">Policy</a>. You may receive SMS message notification from <br>Facebook and can opt at any time</p>
+        </div>
+        <div class="container-item4">
+            <a href="Sign-in.html"><input type="submit" value="Sign In"></a>
+        </div>
+    </div>
+</body>
+</html>

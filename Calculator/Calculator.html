@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+            <div class="display">
+                <input type="text" id="output"><br>
+            </div>
+            <div class="firstRow">
+                <button onclick="inputUser('7')">7</button>
+                <button onclick="inputUser('8')">8</button>
+                <button onclick="inputUser('9')">9</button>
+                <button onclick="operator('/')">/</button>
+            </div>
+            <div class="firstRow">
+                <button onclick="inputUser('4')">4</button>
+                <button onclick="inputUser('5')">5</button>
+                <button onclick="inputUser('6')">6</button>
+                <button onclick="operator('x')">x</button>
+            </div>
+            <div class="firstRow">
+                <button onclick="inputUser('1')">1</button>
+                <button onclick="inputUser('2')">2</button>
+                <button onclick="inputUser('3')">3</button>
+                <button onclick="operator('-')">-</button>
+            </div>
+            <div class="firstRow">
+                <button onclick="remove()">X</button>
+                <button onclick="inputUser('.')">.</button>
+                <button onclick="inputUser('0')">0</button>
+                <button onclick="operator('+')">+</button>
+            </div>
+            <div class="lastRow">
+                <button clas="clearr" onclick="clearAll()">Clear</button>
+                <button class="equal" onclick="equalCompute()">=</button>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Calculator.js"></script>
+</html>

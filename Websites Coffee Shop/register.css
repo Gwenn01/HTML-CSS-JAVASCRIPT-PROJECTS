@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #f2e6d9;
+}
+ .logo {
+height: 500px;
+width: 500px;
+ }
+h1 {
+    float: left;
+    background-color: #f2e6d9;
+    color: black;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    font-size: 50px;
+    
+
+}
+.container {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    width: 400px;
+    height: 80%;
+    padding: 20px;
+}
+.container h2 {
+    padding: 10px;
+}
+.container p {
+    padding: 7px;
+    font-size: 15pxpx;
+}
+.container .container-item1 input {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    width: 45%;
+}
+.container .container-item2 h3 {
+    margin: 10px;
+}
+.container .container-item2 input {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    width: 45%;
+}
+.container .container-item2 p {
+    font-size: 10px;
+    float: right;
+    margin-right: 50px;
+}
+.container .container-item2 p a {
+    text-decoration: none;
+}
+.container .container-item2 select{
+    margin: 13px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.container .container-item2 input{
+    width: 100%;
+    margin: 10px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.container .container-item3 input {
+    margin: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    width: 95%;
+    background-color: #865306;
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+}

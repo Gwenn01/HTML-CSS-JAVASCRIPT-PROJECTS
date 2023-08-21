@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: cadetblue;
+}
+.title{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px;
+}
+.display{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.userDisplay{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 70px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    background-color: azure;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.compDisplay{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 70px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    background-color: azure;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p{  
+    position: absolute;
+    top: 0;
+    font-size: larger;
+
+}
+.displayRock{
+    width: 300px;
+    height: 200px; 
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.winner{
+   font-size: 20px;
+}
+.score{
+   font-size: 20px;
+}

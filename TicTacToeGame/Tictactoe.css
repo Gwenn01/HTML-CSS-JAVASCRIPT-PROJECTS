@@ -1,0 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+/* main layout*/
+.main{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    grid-template-rows: 50px 20px 1fr;
+    background-color: bisque;
+}
+/* */
+.header{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* winner output score of player resetbutton*/
+.score{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    font-size: medium;
+    font-family: sans-serif;
+    margin: 10px;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 50px;
+    padding: 1px;
+    margin: 3px;
+}
+.reset{
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    right: 150px;
+    background-color: burlywood;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.winner{
+    position: absolute;
+    left: 150px;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-style: normal;
+    text-align: center;
+    color: coral;
+}
+/* the button and main*/
+button{
+    padding: 10px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: darksalmon;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.board{
+   grid-row: inherit;
+   border: 3px solid black;
+   padding: 30px;
+}
+.mainBoard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

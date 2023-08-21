@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Tictactoe.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">TICTACTOE</header>
+        <div class="score">
+            <div id="winner" class="winner"></div>
+            <div class="playerOneTittle">Player1: </div>
+            <input id="playerOne" type="text" value="0">
+            <div class="playerTwoTittle">Player2: </div>
+            <input  id="playerTwo" type="text" value="0">
+            <button class="reset" onclick=" resetBtn()">Reset</button>
+        </div>
+        
+        <div class="board">
+            <div class="mainBoard">
+                <button id="btn1" class="board1" onclick="boardClick('0')"></button>
+                <button id="btn2" class="board2" onclick="boardClick('1')"></button>
+                <button id="btn3" class="board3" onclick="boardClick('2')"></button>
+                <button id="btn4" class="board4" onclick="boardClick('3')"></button>
+                <button id="btn5" class="board5" onclick="boardClick('4')"></button>
+                <button id="btn6" class="board6" onclick="boardClick('5')"></button>
+                <button id="btn7" class="board7" onclick="boardClick('6')"></button>
+                <button id="btn8" class="board8" onclick="boardClick('7')"></button>
+                <button id="btn9" class="board9" onclick="boardClick('8')"></button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="Tictactoe.js"></script>
+</html>
