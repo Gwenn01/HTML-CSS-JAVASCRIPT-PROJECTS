@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0;
+    background-color: #016f32;
+    
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.tittle{
+    font-size: 50px;
+    color: goldenrod;
+    font-weight: bolder;
+}
+.playing{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.start-btn{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.start, .new-card{
+    color: #016f32;
+    background-color: goldenrod;
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.start:hover, .new-card:hover{
+    cursor: pointer;
+}
+
