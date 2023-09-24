@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+    background: url(modalImage.jpg) no-repeat center center/ cover;
+}
+.container{
+    height: 100vh;
+    position: relative;
+}
+.open-modal{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.open-modal p{
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    transition: all ease 1s;
+}
+.open-modal p:hover{
+    color: gray;
+}
+.modal-container{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateXY(-50%, -50%);
+    display: none;
+
+    animation-name: animation-modal;
+    animation-duration: .4s;
+}
+.modal-container .modal{
+    height: 80px;
+    width: 150px;
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+.modal-container .modal p{
+    font-weight: bold;
+
+}
+.modal-container .modal .close-btn{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    color: green;
+}
+.modal-container .modal .close-btn:hover{
+    color: red;
+}
+
+@keyframes animation-modal{
+ from{
+    top: 0px;
+    opacity: 0;
+ }
+ to{
+    top: 50%;
+    opacity: 1;
+ }
+}
