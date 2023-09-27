@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+    font-weight: bolder;
+    background-color: bisque;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.main .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-attachment: fixed;
+    background-color: aliceblue;
+}
+.container .red, .yellow, .blue{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    transition: all 1s ease;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.red:hover, .yellow:hover, .blue:hover{
+    color: gray;
+    height: 110px;
+    width: 110px;
+}
