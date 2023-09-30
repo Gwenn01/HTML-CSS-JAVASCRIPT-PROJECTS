@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(193, 207, 220);
+    font-family: trebuchet MS;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.container .title{
+    margin: 20px;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+}
+/* CONTAINER FOR DISPLAY */
+.container-display{
+    display: block;
+}
+.container-display .balance-add{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    margin: 20px;
+}
+.container-display .balance-add .balance .balance-tittle{
+    font-size: 20px;
+    color: blueviolet;
+}
+.container-display .balance-add .balance .balance-value{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+}
+.container-display .balance-add .add .add-btn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.container-display .balance-add .add .add-btn:hover{
+    color: gray;
+}
+.container-display .history-title{
+    position: absolute;
+    top: 65%;
+    left: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: blueviolet;
+}
+.container-display .add-expense{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-display .add-expense .add-expense-btn{
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+.container-display .add-expense .add-expense-btn:hover{
+    color: gray;
+}
+/* CONTAINER FOR ADDING */
+.container-adding{
+    display: none;
+}
+.container-adding .title{
+    font-weight: lighter;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 30px;
+}
+.container-adding .input-money .input-addmoney{
+    margin: 5px 20px;
+    padding: 10px;
+}
+.container-adding .add-description .textarea{
+    margin: 5px 20px 20px 20px;
+}
+.container-adding .cancel-submit{
+    float: right;
+    margin-right: 30px;
+}
+.container-adding .cancel-submit .cancel{
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    color: blueviolet;
+}
+.container-adding .cancel-submit .cancel:hover{
+    color: red;
+}
+.container-adding .cancel-submit .add{
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+.container-adding .cancel-submit .add:hover{
+    color: gray;
+}
+/* CONTAINER FOR EXPENSE */
+.container-expense{
+    display: none;
+}
+.container-expense .title{
+    font-weight: lighter;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 30px;
+}
+.container-expense .input-money .input-addmoney{
+    margin: 5px 20px;
+    padding: 10px;
+}
+.container-expense .add-description .textarea{
+    margin: 5px 20px 20px 20px;
+}
+.container-expense .cancel-submit{
+    float: right;
+    margin-right: 30px;
+}
+.container-expense .cancel-submit .cancel{
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    color: blueviolet;
+}
+.container-expense .cancel-submit .cancel:hover{
+    color: red;
+}
+.container-expense .cancel-submit .add{
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+.container-expense .cancel-submit .add:hover{
+    color: gray;
+}
+/* style for the history*/
+.history {
+    height: auto; 
+    width: 300px;  
+    position: absolute;
+    top: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;                                                                                                                                                         
+}
+.history-element{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 10px;
+}
+.history-element .add-balance-history{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.history-element .add-description-history{
+    font-size: 10px;
+}
+.history-element .expense-balance-history{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.history-element .expense-description-history{
+    font-size: 10px;
+}
+
+
+
+
