@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+    color: white;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(119, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .container{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(0, 2, 68);
+    border: 1px solid rgb(0, 2, 68);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/*Design for bill*/
+.main .container .bill-total{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.main .container .bill-total .bill-total-title{
+   font-size: 0.8rem;
+   margin-bottom: 10px;
+}
+.main .container .bill-total #bill-total-input{
+    border: 1px solid rgb(0, 2, 68);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(56, 47, 96);
+    color: white;
+}
+/*Design for tip*/
+.main .container .tip{
+    display: flex;
+    flex-direction: column;
+}
+.main .container .tip .tip-title{
+   font-size: 0.8rem;
+   margin-bottom: 10px;
+}
+.main .container .tip #tip-input{
+    border: 1px solid rgb(0, 2, 68);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(56, 47, 96);
+    color: white;
+}
+/*Design for person and total bill*/
+/* pople */
+.main .container .conatiner-people-total{
+    display: flex;
+    justify-content: space-between;
+}
+.main .container .conatiner-people-total .people{
+    display: flex;
+    flex-direction: column;
+}
+.main .container .conatiner-people-total .people .people-title{
+   margin-bottom: 20px;
+}
+.people .btn-count #people-increament, #people-decreament{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(119, 0, 255);
+}
+.people .btn-count #people-increament:hover, #people-decreament:hover{
+    color: gray;
+}
+/*people and bill*/
+.main .container .conatiner-people-total .total-per-person{
+    display: flex;
+    flex-direction: column;
+}
+.conatiner-people-total .total-per-person .total-per-person-title{
+    margin-bottom: 10px;
+}
+.conatiner-people-total .total-per-person #Bill{
+    font-size: 30px;
+}
