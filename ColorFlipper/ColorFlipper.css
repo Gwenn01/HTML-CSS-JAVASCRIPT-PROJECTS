@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: trebuchet MS;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.background-color{
+    font-size: 50px;
+    font-weight: bolder;
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    background-color: black;
+    color: white;
+}
+.flip{
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
