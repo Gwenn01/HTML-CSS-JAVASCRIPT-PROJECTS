@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: trebuchet MS;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+.container .title{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container .counter-value{
+    font-size: 60px;
+    font-weight: bold;
+}
+.container .buttons-container{
+    display: flex;
+    gap: 20px;
+}
+.buttons-container #decrease, #reset, #increase{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bolder;
+    transition: all ease 0.3s;
+}
+.buttons-container #decrease:hover, #reset:hover, #increase:hover{
+    background-color: gray;
+}
