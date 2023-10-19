@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="QuizApp.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="question">Question</h2>
+        <ul class="choices">
+            <li>
+                <input type="radio" id="a" class="answer" name="answer" answer="a">
+                <label for="a" id="text_a">Answer 1</label>
+            </li>
+            <li>
+                <input type="radio" id="b" class="answer" name="answer" answer="b">
+                <label for="b" id="text_b">Answer 1</label>
+            </li>
+            <li>
+                <input type="radio" id="c" class="answer" name="answer" answer="c">
+                <label for="c" id="text_c">Answer 1</label>
+            </li>
+            <li>
+                <input type="radio" id="d" class="answer" name="answer" answer="d">
+                <label for="d" id="text_d">Answer 1</label>
+            </li>
+        </ul>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="container2">
+        <h1>Your Score: </h1>
+        <div class="check">
+            <img src="check.png" alt=""><span id="text_check">0</span>
+        </div>
+        <div class="wrong">
+            <img src="wrong.png" alt=""><span id="text_wrong">0</span>
+        </div>   
+        <button id="Retake_quiz">Retake Quiz</button>
+    </div>
+    <script src="QuizApp.js"></script>
+</body>
+</html>

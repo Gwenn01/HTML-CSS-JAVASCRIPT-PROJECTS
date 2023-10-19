@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS';
+    background-image: linear-gradient(to bottom right, #ebf4f5, #b5c6e0);
+}
+.container{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#question{
+   margin: 10px 15px 0 15px;
+   font-size: 20px;
+}
+.choices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 15px 0 15px;;
+}
+ul li {
+    list-style: none;
+}
+#submit{
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #627af7;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#submit:hover{
+    background-color: #3e4e9a;
+}
+.container2{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+.check, .wrong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#text_check, #text_wrong{
+    font-size: 50px;
+}
+#Retake_quiz{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #d3564f;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#Retake_quiz:hover{
+    background-color: #953b36;
+}
